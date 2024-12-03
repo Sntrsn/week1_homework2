@@ -33,10 +33,8 @@ def cal_min(numbers):
 
 def cal_mean(numbers):
     total = cal_sum(numbers)
-    count = 0
-    for _ in numbers:
-        count += 1
-    return total // count  # 整数値として計算
+
+    return total / len(numbers)  # 整数値として計算
 
 
 if __name__ == "__main__":

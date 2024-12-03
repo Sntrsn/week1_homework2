@@ -1,1 +1,1 @@
-bob_info = ("Bob", "Dylan", "79")
+bob_info = ("Bob", "Dylan", 79)

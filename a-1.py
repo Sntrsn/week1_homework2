@@ -1,1 +1,1 @@
-uses = ("Bob", "Tom", "Ken")
+uses = ["Bob", "Tom", "Ken"]

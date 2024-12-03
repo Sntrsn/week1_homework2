@@ -3,7 +3,8 @@ class MyCounterV1:
         self.value = value
 
     def count_up(self):
-        return self.value + 1
+        self.value = self.value + 1
+        return self.value
 
 
 counter1 = MyCounterV1(value=0)
